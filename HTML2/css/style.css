@@ -1,0 +1,21 @@
+body{background-color: #ffffff ;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 150px 550px 1fr;
+    display:grid;
+    }
+
+    header{
+  
+}
+h1::before{
+    content:"hej";
+position: absolute;
+top: 15px;
+bottom: 0px;
+width: 1000%;
+border-top: solid 3px color #d1f442;
+}
+
+.h1{
+
+}
