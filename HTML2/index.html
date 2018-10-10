@@ -10,7 +10,11 @@
 	 crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
 	<link rel="stylesheet" type="text/css" href="fonts/linearicons-v1.0.0/icon-font.min.css">
-
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/bootstrap-lightbox.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
 	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
@@ -26,30 +30,22 @@
 
 <body class="animsition">
 	<header>
-		<nav class="navbar navbar-default navbar-stick-top" role="navigation">
+		<nav class="navbar navbar-fixed-top" id="navigation" role="navigation">
 			<div class="container">
-				<!-- Logo desktop -->
-				<div>
-					<h1 style="width: 550px">CS MMD Coop Webshop</h1>
-				</div>
-				<!-- Menu desktop -->
-				<div class="menu-desktop">
-					<ul class="main-menu">
-						<li class="active-menu">
-							<a href="#header-section">Forside</a>
-						</li>
-
-						<li>
-							<a href="#produkt-section">Produkter</a>
-						</li>
-
-						<li>
-							<a href="#kontakt-section">Kontakt</a>
-						</li>
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+				<a href="#intro" class="brand"><h1>CS MMD Coop Webshop</h1></a>
+				<div class="nav-collapse collapse">
+					<ul class="nav pull-right">
+						<li><a href="#header-section">Forside</a></li>
+						<li><a href="#product-section">Produkter</a></li>
+						<li><a href="#team-section">Vores team</a></li>
+						<li><a href="#contact-section">Kontakt</a></li>
 					</ul>
 				</div>
-
-				<!-- Icon headers -->
 				<div class="wrap-icon-header flex-w flex-r-m">
 					<div id="search-field">
 						<input type="text" class="form-control" name="x" placeholder="Søg efter en vare her...">
@@ -57,7 +53,7 @@
 					<div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11">
 						<i class="fas fa-search"></i>
 					</div>
-
+			
 					<div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart" data-notify="1">
 						<!-- TODO Update with amount of items bought -->
 						<i class="fas fa-shopping-cart"></i>
@@ -66,6 +62,8 @@
 			</div>
 		</nav>
 	</header>
+
+	
 
 	<!-- Shopping Cart -->
 	<div class="wrap-header-cart js-panel-cart">
