@@ -1,0 +1,1 @@
+All folders here are taken as is, credits will be given (if included) in the source files themselves
