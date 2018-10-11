@@ -8,30 +8,119 @@
 <body>
 <div id="main" class="container">
     <h1>Admin page</h1>
-    <h3>Create</h3>
-    <form id="formCreate">
-        <div class="form-group">
-            <label for="productName">Product Name</label>
-            <input type="text" class="form-control" id="productName" placeholder="Apple, Bean, Pear. Etc.">
-            <small class="form-text text-muted">My little desc</small>
+    <div class="row">
+
+        <!-- Create -->
+        <div class="col-sm">
+            <form id="formCreate">
+                <h3>Create</h3>
+                <!-- Name -->
+                <div class="form-group">
+                    <label for="productCreateName">Product Name</label>
+                    <input type="text" class="form-control" id="productCreateName" placeholder="Apple, Bean, Pear. Etc.">
+                    <small class="form-text text-muted">My little desc</small>
+                </div>
+                <!-- Desc -->
+                <div class="form-group">
+                    <label for="productCreateDesc">Description</label>
+                    <textarea type="text" class="form-control" id="productCreateDesc" placeholder="A tasty piece of shiny food"></textarea>
+                    <small class="form-text text-muted">My little desc</small>
+                </div>
+                <!-- Image -->
+                <div class="form-group">
+                    <label for="productCreateImage">Image URL</label>
+                    <input type="url" class="form-control" id="productCreateImage" placeholder="https://i.imgur.com/abc0xyz.png">
+                    <small class="form-text text-muted">My little desc</small>
+                </div>
+                <!-- Price -->
+                <div class="form-group">
+                    <label for="productCreatePrice">Product Price</label>
+                    <input type="number" class="form-control" id="productCreatePrice" placeholder="19,99">
+                    <small class="form-text text-muted">My little desc</small>
+                </div>
+                <button type="submit" class="btn btn-primary" id="buttonCreate">Create</button>
+            </form>
         </div>
-        <div class="form-group">
-            <label for="productDesc">Description</label>
-            <input type="text" class="form-control" id="productDesc" placeholder="A tasty piece of shiny food">
-            <small class="form-text text-muted">My little desc</small>
+
+        <!-- Update -->
+        <div class="col-sm">
+            <form id="formUpdate">
+                <h3>Update</h3>
+                <!-- Search -->
+                <div class="form-group">
+                    <label for="productUpdateSearchInput">Search</label>
+                    <div class="form-inline">
+                        <input type="text" id="productUpdateSearchInput" class="form-control" placeholder="Product Search">
+                        <button id="productUpdateSearchButton" class="btn btn-primary">Search</button>
+                    </div>
+                </div>
+                <!-- Select -->
+                <div class="form-group">
+                    <label for="productUpdateName">Product</label>
+                    <select class="form-control" id="productUpdateList"></select>
+                    <small class="form-text text-muted">My little desc</small>
+                </div>
+                <!-- Name -->
+                <div class="form-group">
+                    <label for="productUpdateName">Product Name</label>
+                    <input type="text" class="form-control" id="productUpdateName" placeholder="Leave blank if you don' want to change it">
+                    <small class="form-text text-muted">My little desc</small>
+                </div>
+                <!-- Desc -->
+                <div class="form-group">
+                    <label for="productUpdateDesc">Description</label>
+                    <textarea type="text" class="form-control" id="productUpdateDesc" placeholder="Leave blank if you don' want to change it"></textarea>
+                    <small class="form-text text-muted">My little desc</small>
+                </div>
+                <!-- Image -->
+                <div class="form-group">
+                    <label for="productUpdateImage">Image URL</label>
+                    <input type="url" class="form-control" id="productUpdateImage" placeholder="Leave blank if you don' want to change it">
+                    <small class="form-text text-muted">My little desc</small>
+                </div>
+                <!-- Price -->
+                <div class="form-group">
+                    <label for="productUpdatePrice">Product Price</label>
+                    <input type="number" class="form-control" id="productUpdatePrice" placeholder="Leave blank if you don' want to change it">
+                    <small class="form-text text-muted">My little desc</small>
+                </div>
+                <!-- Discount -->
+                <div class="form-group form-check">
+                    <input type="checkbox" id="productUpdateDiscount" class="form-check-input">
+                    <label for="productUpdateDiscount" class="form-text">Use the discount price?</label>
+                </div>
+                <!-- discount Price-->
+                <div class="form-group">
+                    <label for="productUpdateDiscountPrice">Product Price</label>
+                    <input type="number" class="form-control" id="productUpdateDiscountPrice" placeholder="Leave blank if you don' want to change it">
+                    <small class="form-text text-muted">My little desc</small>
+                </div>
+                <button type="submit" class="btn btn-primary" id="buttonUpdate">Update</button>
+            </form>
         </div>
-        <div class="form-group">
-            <label for="productImage">Image URL</label>
-            <input type="url" class="form-control" id="productImage" placeholder="https://i.imgur.com/abc0xyz.png">
-            <small class="form-text text-muted">My little desc</small>
+
+        <!-- Delete -->
+        <div class="col-sm">
+            <form id="formDelete">
+                <h3>Delete</h3>
+
+                <!-- Localized search -->
+                <label for="productDeleteSearchInput">Search</label>
+                <div class="form-group form-inline">
+                    <input type="text" id="productDeleteSearchInput" class="form-control" placeholder="Product Search">
+                    <button id="productDeleteSearchButton" class="btn btn-primary">Search</button>
+                </div>
+
+                <div class="form-group">
+                    <label for="productDeleteList">Products</label>
+                    <select id="productDeleteList" class="form-control">
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-primary" id="buttonDelete">Delete</button>
+            </form>
         </div>
-        <div class="form-group">
-            <label for="productPrice">Product Price</label>
-            <input type="number" class="form-control" id="productPrice" placeholder="19,99">
-            <small class="form-text text-muted">My little desc</small>
-        </div>
-        <button type="submit" class="btn btn-primary" id="buttonCreate">Create</button>
-    </form>
+    </div>
 </div>
 </body>
 <footer>
