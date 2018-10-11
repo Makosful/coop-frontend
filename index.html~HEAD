@@ -148,9 +148,6 @@
 					<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".mad">
 						Madvarer
 					</button>
-<<<<<<< HEAD
-				</div>		
-=======
 				</div>
 
 				<div class="flex-w flex-c-m m-tb-10">
@@ -331,7 +328,6 @@
 						</div>
 					</div>
 				</div>
->>>>>>> blah
 			</div>
 
 			<!-- Product List -->
@@ -528,13 +524,10 @@
 						</div>
 						<!-- End of Prouct Popup -->
 
-<<<<<<< HEAD
->>>>>>> blah
-=======
 					</div>
->>>>>>> Blah
 				</div>
 			</div>
+>>>>>>> blah
 		</div>
 	</section>
 
