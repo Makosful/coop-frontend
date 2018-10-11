@@ -1,67 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<title>CS MMD Coop Webshop</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+	 crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
 	<link rel="stylesheet" type="text/css" href="fonts/linearicons-v1.0.0/icon-font.min.css">
-
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">	
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">	
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/bootstrap-lightbox.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
 	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
 	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">	
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
 	<link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
 	<link rel="stylesheet" type="text/css" href="vendor/MagnificPopup/magnific-popup.css">
 	<link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
-	
+
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
+
 <body class="animsition">
 	<header>
-				<nav class="navbar navbar-default">
-					<div class="container">
-					<!-- Logo desktop -->	
-					<div>
-						<h1 style="width: 550px">CS MMD Coop Webshop</h1>
-					</div>	
-					<!-- Menu desktop -->
-					<div class="menu-desktop">
-						<ul class="main-menu">
-							<li class="active-menu">
-								<a href="#header-section">Forside</a>
-							</li>
-
-							<li>
-								<a href="#produkt-section">Produkter</a>
-							</li>
-
-							<li>
-								<a href="#kontakt-section">Kontakt</a>
-							</li>
-						</ul>
-					</div>	
-
-					<!-- Icon headers -->
-					<div class="wrap-icon-header flex-w flex-r-m">
-						<div id="search-field">
-								<input type="text" class="form-control" name="x" placeholder="Søg efter en vare her...">
-						</div>
-						<div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11">
-							<i class="fas fa-search"></i>
-						</div>
-
-						<div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart" data-notify="1"> <!-- TODO Update with amount of items bought -->
-							<i class="fas fa-shopping-cart"></i>
-						</div>
+		<nav class="navbar navbar-fixed-top" id="navigation" role="navigation">
+			<div class="container">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+				<a href="#intro" class="brand"><h1>CS MMD Coop Webshop</h1></a>
+				<div class="nav-collapse collapse">
+					<ul class="nav pull-right">
+						<li><a href="#header-section">Forside</a></li>
+						<li><a href="#product-section">Produkter</a></li>
+						<li><a href="#team-section">Vores team</a></li>
+						<li><a href="#contact-section">Kontakt</a></li>
+					</ul>
+				</div>
+				<div class="wrap-icon-header flex-w flex-r-m">
+					<div id="search-field">
+						<input type="text" class="form-control" name="x" placeholder="Søg efter en vare her...">
+					</div>
+					<div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11">
+						<i class="fas fa-search"></i>
+					</div>
+			
+					<div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart" data-notify="1">
+						<!-- TODO Update with amount of items bought -->
+						<i class="fas fa-shopping-cart"></i>
 					</div>
 				</div>
-				</nav>
+			</div>
+		</nav>
 	</header>
+
+	
 
 	<!-- Shopping Cart -->
 	<div class="wrap-header-cart js-panel-cart">
@@ -77,10 +79,10 @@
 					<i class="zmdi zmdi-close"></i>
 				</div>
 			</div>
-			
+
 			<div class="header-cart-content flex-w js-pscroll">
 				<ul class="header-cart-wrapitem w-full">
-					
+
 					<li class="header-cart-item flex-w flex-t m-b-12">
 						<div class="header-cart-item-img">
 							<img src="" alt="IMG">
@@ -98,7 +100,7 @@
 					</li>
 
 				</ul>
-				
+
 				<div class="w-full">
 					<div class="header-cart-total w-full p-tb-40">
 						Total: 0.00 dkk
@@ -121,15 +123,15 @@
 
 	<!-- Header / Banner -->
 	<section id="header-section" class="bg0 p-t-23 p-b-140">
-	<div class="sec-banner bg0 p-t-80 p-b-50">
-		<div class="container">
-			<!--Carousel | Hot Products slider -->
+		<div class="sec-banner bg0 p-t-80 p-b-50">
+			<div class="container">
+				<!--Carousel | Hot Products slider -->
+			</div>
 		</div>
-	</div>
-</section>
+	</section>
 
 	<!-- Produkt -->
-	<section id="produkt-section"class="bg0 p-t-23 p-b-140">
+	<section id="produkt-section" class="bg0 p-t-23 p-b-140">
 		<div class="container">
 			<h1>Produkter</h1>
 
@@ -152,7 +154,7 @@
 					<div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn3 trans-04 m-r-8 m-tb-4 js-show-filter">
 						<i class="icon-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-filter-list"></i>
 						<i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
-						 Filtrer
+						Filtrer
 					</div>
 
 					<div class="flex-c-m stext-106 cl6 size-105 bor4 pointer hov-btn3 trans-04 m-tb-4 js-show-search">
@@ -327,10 +329,11 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<!-- Product List -->
 			<div class="row isotope-grid">
-				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item mad"> <!-- HUSK "mad" og "hus" klasserne skal på hvis vi skal kunne sortere! -->
+				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item mad">
+					<!-- HUSK "mad" og "hus" klasserne skal på hvis vi skal kunne sortere! -->
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
@@ -355,7 +358,7 @@
 					</div>
 				</div>
 			</div>
-		<!-- End of Product List -->
+			<!-- End of Product List -->
 
 			<!-- Se flere knap -->
 			<div class="flex-c-m flex-w w-full p-t-45">
@@ -371,11 +374,11 @@
 	<footer class="bg3 p-t-9 p-b-9">
 		<div class="container">
 			<div id="Kontakt-form">
-				
+
 			</div>
 			<div class="container text-center">
-					<p>Copyright &copy; Asger Stormsexy, Malthe Schwarzenegger, Nanze Fabricius og Spandy Andy</p>
-				</div>
+				<p>Copyright &copy; Asger Stormsexy, Malthe Schwarzenegger, Nanze Fabricius og Spandy Andy</p>
+			</div>
 		</div>
 	</footer>
 
@@ -389,183 +392,185 @@
 
 	<!-- Product popup -->
 	<section id="produkt-modal-popup">
-	<div class="wrap-modal1 js-modal1 p-t-60 p-b-20">
-		<div class="overlay-modal1 js-hide-modal1"></div>
+		<div class="wrap-modal1 js-modal1 p-t-60 p-b-20">
+			<div class="overlay-modal1 js-hide-modal1"></div>
 
-		<div class="container">
-			<div class="bg0 p-t-60 p-b-30 p-lr-15-lg how-pos3-parent">
-				<button class="how-pos3 hov3 trans-04 js-hide-modal1">
-					<img src="images/icons/icon-close.png" alt="CLOSE"> 
-				</button>
+			<div class="container">
+				<div class="bg0 p-t-60 p-b-30 p-lr-15-lg how-pos3-parent">
+					<button class="how-pos3 hov3 trans-04 js-hide-modal1">
+						<img src="images/icons/icon-close.png" alt="CLOSE">
+					</button>
 
-				<div class="row">
-					<div class="col-md-6 col-lg-7 p-b-30">
-						<div class="p-l-25 p-r-30 p-lr-0-lg">
-							<div class="wrap-slick3 flex-sb flex-w">
-								<div class="wrap-slick3-dots"></div>
-								<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+					<div class="row">
+						<div class="col-md-6 col-lg-7 p-b-30">
+							<div class="p-l-25 p-r-30 p-lr-0-lg">
+								<div class="wrap-slick3 flex-sb flex-w">
+									<div class="wrap-slick3-dots"></div>
+									<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
 
-								<div class="slick3 gallery-lb">
-									<!-- PRODUCT POPUP STOCK IMG -->
-									<div class="item-slick3" data-thumb="https://cdn.coolstuff.com/autogen/preset/aspectThumb/960x720/ab50158ccf8f612060c0c0515e27235a.jpg">
-										<div class="wrap-pic-w pos-relative">
-											<!-- CLICK ON IMAGE -->
-											<img src="https://cdn.coolstuff.com/autogen/preset/aspectThumb/960x720/ab50158ccf8f612060c0c0515e27235a.jpg" alt="IMG-PRODUCT">
-											<!-- ZOOM ON IMAGE -->
-											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="https://cdn.coolstuff.com/autogen/preset/aspectThumb/960x720/ab50158ccf8f612060c0c0515e27235a.jpg">
-												<i class="fa fa-expand"></i>
-											</a>
+									<div class="slick3 gallery-lb">
+										<!-- PRODUCT POPUP STOCK IMG -->
+										<div class="item-slick3" data-thumb="https://cdn.coolstuff.com/autogen/preset/aspectThumb/960x720/ab50158ccf8f612060c0c0515e27235a.jpg">
+											<div class="wrap-pic-w pos-relative">
+												<!-- CLICK ON IMAGE -->
+												<img src="https://cdn.coolstuff.com/autogen/preset/aspectThumb/960x720/ab50158ccf8f612060c0c0515e27235a.jpg" alt="IMG-PRODUCT">
+												<!-- ZOOM ON IMAGE -->
+												<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="https://cdn.coolstuff.com/autogen/preset/aspectThumb/960x720/ab50158ccf8f612060c0c0515e27235a.jpg">
+													<i class="fa fa-expand"></i>
+												</a>
+											</div>
 										</div>
-									</div>
 
-									<!-- PRODUCT POPUP IMG 1 -->
-									<div class="item-slick3" data-thumb="images/nutella-popup1.jpg">
-										<div class="wrap-pic-w pos-relative">
-											<!-- CLICK ON IMAGE -->
-											<img src="images/nutella-popup1.jpg" alt="IMG-PRODUCT">
-											<!-- ZOOM ON IMAGE -->
-											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/nutella-popup1.jpg">
-												<i class="fa fa-expand"></i>
-											</a>
+										<!-- PRODUCT POPUP IMG 1 -->
+										<div class="item-slick3" data-thumb="images/nutella-popup1.jpg">
+											<div class="wrap-pic-w pos-relative">
+												<!-- CLICK ON IMAGE -->
+												<img src="images/nutella-popup1.jpg" alt="IMG-PRODUCT">
+												<!-- ZOOM ON IMAGE -->
+												<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/nutella-popup1.jpg">
+													<i class="fa fa-expand"></i>
+												</a>
+											</div>
 										</div>
-									</div>
-									<!-- END PRODUCT POPUP IMG 1 -->
+										<!-- END PRODUCT POPUP IMG 1 -->
 
-									<!-- PRODUCT POPUP IMG 2 -->
-									<div class="item-slick3" data-thumb="images/nutella-popup2.jpg">
-										<div class="wrap-pic-w pos-relative">
-											<!-- CLICK ON IMAGE -->
-											<img src="images/nutella-popup2.jpg" alt="IMG-PRODUCT">
-											<!-- ZOOM ON IMAGE -->
-											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/nutella-popup2.jpg"> 
-												<i class="fa fa-expand"></i>
-											</a>
+										<!-- PRODUCT POPUP IMG 2 -->
+										<div class="item-slick3" data-thumb="images/nutella-popup2.jpg">
+											<div class="wrap-pic-w pos-relative">
+												<!-- CLICK ON IMAGE -->
+												<img src="images/nutella-popup2.jpg" alt="IMG-PRODUCT">
+												<!-- ZOOM ON IMAGE -->
+												<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/nutella-popup2.jpg">
+													<i class="fa fa-expand"></i>
+												</a>
+											</div>
 										</div>
-									</div>
-									<!-- END PRODUCT POPUP IMG 2 -->
+										<!-- END PRODUCT POPUP IMG 2 -->
 
-									<!-- PRODUCT POPUP IMG 3 -->
-									<div class="item-slick3" data-thumb="images/nutella-popup3.jpg">
-										<div class="wrap-pic-w pos-relative">
-											<!-- CLICK ON IMAGE -->
-											<img src="images/nutella-popup3.jpg" alt="IMG-PRODUCT">
-											<!-- ZOOM ON IMAGE -->
-											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/nutella-popup3.jpg"> 
-												<i class="fa fa-expand"></i>
-											</a>
+										<!-- PRODUCT POPUP IMG 3 -->
+										<div class="item-slick3" data-thumb="images/nutella-popup3.jpg">
+											<div class="wrap-pic-w pos-relative">
+												<!-- CLICK ON IMAGE -->
+												<img src="images/nutella-popup3.jpg" alt="IMG-PRODUCT">
+												<!-- ZOOM ON IMAGE -->
+												<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="images/nutella-popup3.jpg">
+													<i class="fa fa-expand"></i>
+												</a>
+											</div>
 										</div>
-									</div>
-									<!-- END PRODUCT POPUP IMG 3 -->
+										<!-- END PRODUCT POPUP IMG 3 -->
 
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<!-- PRODUCT POPUP DESCRIPTION -->
-					<div class="col-md-6 col-lg-5 p-b-30">
-						<div class="p-r-50 p-t-5 p-lr-0-lg">
-							<h4 id="popup-productname"class="mtext-105 cl2 js-name-detail p-b-14">
-								Nutella spand - 3 Kg
-							</h4>
+						<!-- PRODUCT POPUP DESCRIPTION -->
+						<div class="col-md-6 col-lg-5 p-b-30">
+							<div class="p-r-50 p-t-5 p-lr-0-lg">
+								<h4 id="popup-productname" class="mtext-105 cl2 js-name-detail p-b-14">
+									Nutella spand - 3 Kg
+								</h4>
 
-							<span id="popup-produkt-price" class="mtext-106 cl2">
-								123.45 dkk
-							</span>
+								<span id="popup-produkt-price" class="mtext-106 cl2">
+									123.45 dkk
+								</span>
 
-							<p id="PopupProductDescription" class="stext-102 cl3 p-t-23">
-									Nutella er et chokoladepålæg med hasselnødder, som blev opfundet i 1946 og markedsført under navnet Nutella i 1960'erne. Det bliver fabrikeret hos chokoladefabrikanten Ferrero.
-									Pålægget kommer fra Italien, og det er meget anvendt i hele Europa. Af Ferreros hjemmeside fremgår det, at der på verdensplan bliver solgt mere Nutella end peanutbutter.
-									Udover at have pålægget på brødskiven, er det i Frankrig og i Italien også normalt at servere det med crêpes som hurtigmad.
-									Nutella markedsføres i 75 lande over hele verden.
-									Det var Pietro Ferrero der i 1946 fandt på denne opfindelse. Det hed i starten Pasta Giandujot og derefter Supercrema, men blev i 1963 omdøbt til Nutella som man kender det i dag.
-							</p>
-							
-							<!-- BOTTOM OF PRODUCT INFO PAGE -->
-							<div class="p-t-33">
-								<div class="flex-w flex-r-m p-b-10">
-									<div class="size-204 flex-w flex-m respon6-next">
-										<div class="wrap-num-product flex-w m-r-20 m-tb-10">
-											<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
-												<i class="fas fa-minus"></i>
+								<p id="PopupProductDescription" class="stext-102 cl3 p-t-23">
+									Nutella er et chokoladepålæg med hasselnødder, som blev opfundet i 1946 og markedsført under navnet Nutella i 1960'erne.
+									Det bliver fabrikeret hos chokoladefabrikanten Ferrero. Pålægget kommer fra Italien, og det er meget anvendt i hele
+									Europa. Af Ferreros hjemmeside fremgår det, at der på verdensplan bliver solgt mere Nutella end peanutbutter. Udover
+									at have pålægget på brødskiven, er det i Frankrig og i Italien også normalt at servere det med crêpes som hurtigmad.
+									Nutella markedsføres i 75 lande over hele verden. Det var Pietro Ferrero der i 1946 fandt på denne opfindelse. Det
+									hed i starten Pasta Giandujot og derefter Supercrema, men blev i 1963 omdøbt til Nutella som man kender det i dag.
+								</p>
+
+								<!-- BOTTOM OF PRODUCT INFO PAGE -->
+								<div class="p-t-33">
+									<div class="flex-w flex-r-m p-b-10">
+										<div class="size-204 flex-w flex-m respon6-next">
+											<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+												<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fas fa-minus"></i>
+												</div>
+												<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product" value="1">
+												<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+													<i class="fas fa-plus"></i>
+												</div>
 											</div>
-											<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product" value="1">
-											<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
-												<i class="fas fa-plus"></i>
-											</div>
+
+											<button id="PopupAddToCartButton" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+												Tilføj til indkøbskurv
+											</button>
 										</div>
-
-										<button id="PopupAddToCartButton" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
-											Tilføj til indkøbskurv
-										</button>
 									</div>
-								</div>	
+								</div>
 							</div>
 						</div>
-					</div>
-				<!-- End of Prouct Popup -->
+						<!-- End of Prouct Popup -->
 
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 	</section>
 
-<!--===============================================================================================-->	
+	<!--===============================================================================================-->
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<script src="vendor/animsition/js/animsition.min.js"></script>
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<script src="vendor/bootstrap/js/popper.js"></script>
 	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<script src="vendor/slick/slick.min.js"></script>
 	<script src="js/slick-custom.js"></script>
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<script src="vendor/MagnificPopup/jquery.magnific-popup.min.js"></script>
 	<script>
-		$('.gallery-lb').each(function() { // the containers for all your galleries
+		$('.gallery-lb').each(function () { // the containers for all your galleries
 			$(this).magnificPopup({
-		        delegate: 'a', // the selector for gallery item
-		        type: 'image',
-		        gallery: {
-		        	enabled:true
-		        },
-		        mainClass: 'mfp-fade'
-		    });
+				delegate: 'a', // the selector for gallery item
+				type: 'image',
+				gallery: {
+					enabled: true
+				},
+				mainClass: 'mfp-fade'
+			});
 		});
 	</script>
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<script src="vendor/isotope/isotope.pkgd.min.js"></script>
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<script src="vendor/sweetalert/sweetalert.min.js"></script>
 	<script>
-		$('.js-addcart-detail').each(function(){
+		$('.js-addcart-detail').each(function () {
 			var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').html();
-			$(this).on('click', function(){
+			$(this).on('click', function () {
 				swal(nameProduct, "blev tilføjet til din indkøbskurv!", "fuck yeah, dude!");
 			});
 		});
-	
+
 	</script>
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
 	<script>
-		$('.js-pscroll').each(function(){
-			$(this).css('position','relative');
-			$(this).css('overflow','hidden');
+		$('.js-pscroll').each(function () {
+			$(this).css('position', 'relative');
+			$(this).css('overflow', 'hidden');
 			var ps = new PerfectScrollbar(this, {
 				wheelSpeed: 1,
 				scrollingThreshold: 1000,
 				wheelPropagation: false,
 			});
 
-			$(window).on('resize', function(){
+			$(window).on('resize', function () {
 				ps.update();
 			})
 		});
 	</script>
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<script src="js/main.js"></script>
 
 </body>
+
 </html>
