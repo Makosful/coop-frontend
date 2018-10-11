@@ -148,6 +148,9 @@
 					<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".mad">
 						Madvarer
 					</button>
+<<<<<<< HEAD
+				</div>		
+=======
 				</div>
 
 				<div class="flex-w flex-c-m m-tb-10">
@@ -328,6 +331,7 @@
 						</div>
 					</div>
 				</div>
+>>>>>>> blah
 			</div>
 
 			<!-- Product List -->
@@ -464,6 +468,21 @@
 								</div>
 							</div>
 						</div>
+<<<<<<< HEAD
+					</div>
+<<<<<<< HEAD
+=======
+					<!-- PRODUCT POPUP DESCRIPTION -->
+					<div class="col-md-6 col-lg-5 p-b-30">
+						<div class="p-r-50 p-t-5 p-lr-0-lg">
+							<h4 id="popup-productname"class="mtext-105 cl2 js-name-detail p-b-14">
+								Nutella spand - 3 Kg
+							</h4>
+
+							<span id="popup-produkt-price" class="mtext-106 cl2">
+								123.45 dkk
+							</span>
+=======
 						<!-- PRODUCT POPUP DESCRIPTION -->
 						<div class="col-md-6 col-lg-5 p-b-30">
 							<div class="p-r-50 p-t-5 p-lr-0-lg">
@@ -474,6 +493,7 @@
 								<span id="popup-produkt-price" class="mtext-106 cl2">
 									123.45 dkk
 								</span>
+>>>>>>> Blah
 
 								<p id="PopupProductDescription" class="stext-102 cl3 p-t-23">
 									Nutella er et chokoladepålæg med hasselnødder, som blev opfundet i 1946 og markedsført under navnet Nutella i 1960'erne.
@@ -508,7 +528,11 @@
 						</div>
 						<!-- End of Prouct Popup -->
 
+<<<<<<< HEAD
+>>>>>>> blah
+=======
 					</div>
+>>>>>>> Blah
 				</div>
 			</div>
 		</div>
@@ -570,7 +594,6 @@
 	</script>
 	<!--===============================================================================================-->
 	<script src="js/main.js"></script>
-
 </body>
 
 </html>
