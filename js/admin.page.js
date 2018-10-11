@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    const urlBase = "http://localhost:52528/";
+    const urlBase = "https://coopproject.azurewebsites.net/";
     const urlApi  = "api/products";
     const url = urlBase + urlApi;
 
