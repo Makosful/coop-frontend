@@ -1,28 +1,28 @@
 <?php
 // Who you want to recieve the emails from the form.
-$sendto = 'hepek@awerest.com';
+$sendto = 'efteruddannelse@easv.dk';
 
 // The subject you'll see in your inbox
-$subject = 'A message from hepek service';
+$subject = 'En besked fra jeres dejlige elever';
 
 // Message for the user when he/she doesn't fill in the form correctly.
-$errormessage = 'Looks like you are missing some info. Try again.';
+$errormessage = 'Det ser ud til at du mangler noget information. Prøv igen';
 
 //Message for the user when he/she fills in the form correctly.
-$thanks = "Thanks for the email. We'll get back to you as soon as we can.";
+$thanks = "Tak fordi du har sendt os en mail - vi vil vende tilbage til dig snarest.";
 
 // Message for the bot when it fills in in at all.
-$honeypot = "You filled in the honeypot! If you're human, try again!";
+$honeypot = "Get outta here, bot. Fack off m8";
 
 // Various messages displayed when the fields are empty.
-$emptyname =  'Entering your name?';
-$emptyemail = 'Entering your email address?';
-$emptymessage = 'Entering a message?';
+$emptyname =  'Indtast dit navn';
+$emptyemail = 'Indtast din email adresse';
+$emptymessage = 'Indtast en besked';
 
 // Various messages displayed when the fields are incorrectly formatted.
 $alertname =  'Entering your name using only the standard alphabet?';
-$alertemail = 'Entering your email in this format: <i>name@example.com</i>?';
-$alertmessage = "Making sure you aren't using any parenthesis or other escaping characters in the message? Most URLS are fine though!";
+$alertemail = 'Indtast din email i følgende format: <i>navn@domæne.dk</i>?';
+$alertmessage = "Undgå at bruge parantes eller andre specielle tegn, som er 'escape characters'";
 
 $alert = '';
 $pass = 0;
