@@ -53,7 +53,7 @@ $(document).ready(function () {
     function fillProducts(results) {
         const root = $("#product-list");
 
-        root.empty();
+        //root.empty();
         var elements = '<div class="row isotope-grid">';
 
         $.each(results, function (index, product) {
